@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    /* padding: 5rem; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(238, 252, 255);
+    height: 80vh;
+}
+
+.heading {
+    font-size: 4.3rem;
+    line-height: 6rem;
+    font-weight: bold;
+    max-width: 46rem;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.heading span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #239ce2, #1369b9 );
+}
+
+.right img {
+    width: 40rem;
+}
